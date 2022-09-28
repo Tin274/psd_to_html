@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.header {
+     
+    background-image: url(images/bgk-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+
+
+.logo-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerlogo {
+    display: flex;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+ul {
+    columns: 8;
+    list-style: none;
+}
+
+.headerüberschrift {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px -20px 50px;
+    color: white;
+
+}
+
+.headerartikel {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home {
+
+    color: #52C3C0;
+}
