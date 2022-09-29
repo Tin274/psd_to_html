@@ -1,6 +1,161 @@
-body{
-  margin: 0;
+body {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
 }
+
+
+
+.header {
+   
+    background-image: url(images/bgk-header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+
+
+.logo-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headerlogo {
+    display: flex;
+    color: #52C3C0;
+    
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+ul {
+    columns: 8;
+    list-style: none;
+}
+
+.headerüberschrift {
+    display: flex;
+    justify-content: center;
+    margin: 80px 50px -15px 50px;
+    color: white;
+
+}
+
+.headerartikel {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    color: white;
+    margin-top: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.home {
+
+    color: #52C3C0;
+}
+
+.headerbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 0;
+    
+    
+}
+
+button {
+    background-color: transparent;
+    color: #52C3C0;
+    border: 1px solid #52C3C0;
+    padding: 8px 8px 8px 8px;
+    
+}
+
+
+
+.storysection {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+
+.storylogo {
+
+    display: flex;
+    margin: 20px 50px 50px 70px;
+    
+    
+}
+
+.storyartikel {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.watchsection {
+    background-image: url(images/bgk-middle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.videobutton {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.videobutton img {
+    width: 70px;
+    height: 70px;
+}
+
+.videotext {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.watchbody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 h2 {
   font-family: 'Playfair Display', serif; 
