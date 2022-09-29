@@ -1,12 +1,15 @@
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'inter', sans-serif;
     margin: 0;
 }
 
-
+h1 {
+  font-family: 'playfair', serif;
+  font-size: px;
+  margin-bottom: 30px;
+}
 
 .header {
-   
     background-image: url(images/bgk-header.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -16,8 +19,6 @@ body {
     margin: 0px auto;
     position: relative;
 }
-
-
 
 .logo-nav {
     display: flex;
@@ -30,13 +31,30 @@ body {
     
 }
 
+.headerlogo p {
+  font-family: 'Inter', sans-serif;
+  color: #52C3C0;
+  font-size: 30px;
+  font-weight: 100;
+  margin: 0 0 0 15px;
+}
+
 
 .navbar {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
 
+.navbar a {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.navbar a:hover {
+  font-weight: bold;
+  font-size: 13px;
+  text-decoration: underline;
+}
 
 ul {
     columns: 8;
@@ -48,7 +66,6 @@ ul {
     justify-content: center;
     margin: 80px 50px -15px 50px;
     color: white;
-
 }
 
 .headerartikel {
@@ -58,7 +75,9 @@ ul {
     margin-right: auto;
     width: 50%;
     color: white;
-    margin-top: 15px;
+    margin-top: 30px;
+    text-align: center;   
+    line-height: 1.8em; 
 }
 
 a {
@@ -68,7 +87,6 @@ a {
 }
 
 .home {
-
     color: #52C3C0;
 }
 
@@ -76,9 +94,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px 0 0 0;
-    
-    
+    margin: 30px 0 0 0;    
 }
 
 button {
@@ -86,7 +102,7 @@ button {
     color: #52C3C0;
     border: 1px solid #52C3C0;
     padding: 8px 8px 8px 8px;
-    
+    font-weight: 700;
 }
 
 
@@ -98,25 +114,26 @@ button {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    
-    
-    
-    
 }
 
 .storylogo {
-
     display: flex;
     margin: 20px 50px 50px 70px;
-    
-    
 }
 
 .storyartikel {
     display: flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;    
+}
+
+.storyartikel p {
+  font-family: 'inter', sans-serif;
+  color: black;
+  margin: 0 0 30px 0;
+}
+
+.storyartikel h2 {
+  margin-bottom: 30px;
 }
 
 .watchsection {
@@ -135,10 +152,6 @@ button {
 .videobutton {
     display: flex;
     justify-content: center;
-    
-    
-    
-    
 }
 
 .videobutton img {
@@ -156,6 +169,7 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
 
 h2 {
   font-family: 'Playfair Display', serif; 
@@ -367,6 +381,17 @@ footer {
   border: none;
 }
 
+#newsletter-button:hover {
+  background-color: #52C3C0;
+  opacity: 50%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+}
+
 #newletter-button img {
   margin: 0;
 }
@@ -376,6 +401,7 @@ footer {
   width: 90%;
   justify-content: space-between;
 }
+
 
 /* footer letzte Zeile mit Navbar und Copyright */
 
@@ -404,8 +430,14 @@ ul {
   font-family: 'Inter', sans-serif;
 }
 
+.footer-navbar a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 #copyright {
   display: flex;
   justify-content: flex-end;
   font-weight: 200;
 }
+
