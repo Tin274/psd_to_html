@@ -39,23 +39,24 @@ h4 , p {
   height: 30px;
   margin-bottom: 15px;
   padding-left: 10px;
-  border: solid 1px lightgrey;
+  border: solid 1px grey;
   color: lightgray;
 }
 
 ::placeholder {
-  color: lightgray;
+  color: gray;
 }
 
 #message {
-  color: lightgray;
-  border: solid 1px lightgray;
+  color: gray;
+  border: solid 1px gray;
   font-family: 'Inter', sans-serif;
   padding: 10px 0 0 10px;
 }
 
 #submit-button {
   color: #52C3C0;
+  font-weight: bold;
   font-family: sans-serif;
   background-color: transparent;
   border: solid 1px #52C3C0;
@@ -114,15 +115,17 @@ footer {
 
 .footer-logo {
   display: flex;
-  width: 40%;
-  height: 100px;
+  flex-direction: row;
+  width: 50%;
+  height: 80px;
 }
 
 .gradient-text {
   font-family: 'Inter', sans-serif;
   color: #52C3C0;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
+  margin: 0 0 0 15px;
 }
 
 .footer-logo-text p {
