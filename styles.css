@@ -30,6 +30,7 @@ body {
     
 }
 
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -45,7 +46,7 @@ ul {
 .headerüberschrift {
     display: flex;
     justify-content: center;
-    margin: 50px 50px -15px 50px;
+    margin: 80px 50px -15px 50px;
     color: white;
 
 }
@@ -86,4 +87,73 @@ button {
     border: 1px solid #52C3C0;
     padding: 8px 8px 8px 8px;
     
+}
+
+
+
+.storysection {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    
+    
+}
+
+.storylogo {
+
+    display: flex;
+    margin: 20px 50px 50px 70px;
+    
+    
+}
+
+.storyartikel {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.watchsection {
+    background-image: url(images/bgk-middle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin: 40px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.videobutton {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.videobutton img {
+    width: 70px;
+    height: 70px;
+}
+
+.videotext {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.watchbody {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
