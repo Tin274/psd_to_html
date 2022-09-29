@@ -1,12 +1,12 @@
 body {
     font-family: 'Playfair Display', serif;
-
+    margin: 0;
 }
 
 
 
 .header {
-     
+   
     background-image: url(images/bgk-header.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -156,4 +156,256 @@ button {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+h2 {
+  font-family: 'Playfair Display', serif; 
+  font-weight: 100;
+  margin-bottom: 48px;
+}
+
+h4 , p {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.contact {
+  width: 45%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contact-form input {
+  height: 30px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+  border: solid 1px grey;
+  color: lightgray;
+}
+
+::placeholder {
+  color: gray;
+}
+
+#message {
+  color: gray;
+  border: solid 1px gray;
+  font-family: 'Inter', sans-serif;
+  padding: 10px 0 0 10px;
+}
+
+#submit-button {
+  color: #52C3C0;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: transparent;
+  border: solid 1px #52C3C0;
+  width: 100px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.clients {
+  width: 45%;
+}
+
+.client-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px 100px;
+}
+
+.client-logo {
+  text-align: center;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.client-logo img {
+  max-width: 100%;
+}
+
+/* Footer */
+
+footer {
+  background-image: url("images/bgk-footer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  margin: 60px 0 40px 0;
+}
+
+/* Footer linker Bereich mit Logo und Text */
+
+.footer-logo-text {
+  width: 40%;
+  margin: 100px 50px 0 0;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  height: 80px;
+}
+
+.gradient-text {
+  font-family: 'Inter', sans-serif;
+  color: #52C3C0;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 0 0 15px;
+}
+
+.footer-logo-text p {
+  line-height: 2em;
+  font-weight: 200;
+}
+
+/* Footer mittlerer Bereich mit Kontaktdaten */
+
+.footer-our-studio {
+  width: 32%;
+  margin: 120px 0 0 0;
+} 
+
+.studio {
+  margin-bottom: 50px;
+}
+
+.footer-our-studio p {
+  line-height: 2em;
+  font-weight: 200;
+  margin: 0 0 20px 0;
+}
+
+.footer-image-container {
+  margin-right: 12px;
+  line-height: 2em;
+}
+
+.address {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.phone-number {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.phone-number p {
+  font-weight: 200;
+}
+
+/* Footer rechter Bereich mit Newsletteranmeldung */
+
+.stay-in-touch {
+  width: 25%;
+  margin: 120px 0 0 0;
+} 
+
+.stay-in-touch h4 {
+  margin-bottom: 50px;
+}
+
+.newsletter-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  margin: 60px 0 30px 0;
+}
+
+#newsletter {
+  width: 80%;
+  height: 30px;
+  padding-left: 30px;
+  background-color: transparent;
+  border: solid 0.8px #fff;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+#newsletter-button {
+  width: 17%;
+  height: 34px;
+  background-color: #fff;
+  opacity: 50%;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10px;
+  border: none;
+}
+
+#newletter-button img {
+  margin: 0;
+}
+
+.icon-social-media {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+}
+
+/* footer letzte Zeile mit Navbar und Copyright */
+
+.footer-last-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-navbar {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer-navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+#copyright {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 200;
 }
