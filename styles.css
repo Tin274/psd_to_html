@@ -195,6 +195,167 @@ h4 , p {
   padding-bottom: 90px;
 }
 
+/* Expertise */
+
+/*#main_p2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+    
+}   */
+
+.expertise-section {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  height: 500px;
+  
+}
+
+.team-section {
+  background-image: url(images/bkg-team.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.team_box {
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 20px 0 0;
+}
+
+.box-name {
+  width: 250px;
+
+}
+
+.white-box {
+  width: 100%;
+  height: 100px;
+  background-color: white;
+}
+
+.white-box-text {
+  background-color: transparent;
+  border: solid 1px gray;
+}
+
+.semf, .dik, .jeng, .pet {
+
+  text-align: center; 
+
+}
+
+.team-section p {
+  text-align: center;
+}
+
+.semf {
+  color: #fff;
+}
+
+.white-box-text p {
+  text-align: center;
+  font-weight: 100;
+}
+
+.ex_mid_box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.expertise-box {
+  width: 200px;
+  height: 600px;
+}
+
+
+.h1_p2 {
+  font-family: 'Playfair Display', serif; 
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+}
+
+.h1_p2_2 {
+  font-family: 'Playfair Display', serif; 
+  font-weight: 100;
+  text-align: center;
+} 
+
+.ex_top1 {
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: 10px 0 10px 0;
+}
+
+.team_top1, .team_top2, .h1_p2_2 {
+  color: white;
+
+}
+
+.expertise-h2 {
+  font-family: 'Playfair Display', serif; 
+  font-weight: 100;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.n1 {
+  background-image: url("images/screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.n2 {
+  background-image: url("images/screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.n3 {
+  background-image: url("images/screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.n4 {
+  background-image: url("images/screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.n5 {
+  background-image: url("images/screen.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/*contact */
+
+.container {
+  margin-top: 100px;
+}
+
 .contact {
   width: 45%;
 }
@@ -255,6 +416,11 @@ h4 , p {
 .client-logo img {
   max-width: 100%;
 }
+
+
+
+
+
 
 /* Footer */
 
