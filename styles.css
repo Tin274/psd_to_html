@@ -5,9 +5,20 @@ body {
 
 h1 {
   font-family: 'playfair', serif;
-  font-size: px;
+  font-size: 40px;
   margin-bottom: 30px;
 }
+
+h2 {
+  font-family: 'Playfair Display', serif; 
+  font-weight: 100;
+  margin-bottom: 48px;
+}
+
+h4 , p {
+  font-family: 'Inter', sans-serif;
+}
+
 
 .header {
     background-image: url(images/bgk-header.png);
@@ -32,17 +43,10 @@ h1 {
 }
 
 .headerlogo p {
-  font-family: 'Inter', sans-serif;
   color: #52C3C0;
   font-size: 30px;
   font-weight: 100;
   margin: 0 0 0 15px;
-}
-
-
-.navbar {
-    display: flex;
-    justify-content: space-between; 
 }
 
 .navbar a {
@@ -71,8 +75,7 @@ ul {
 .headerartikel {
     display: flex;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     width: 50%;
     color: white;
     margin-top: 30px;
@@ -105,7 +108,7 @@ button {
     font-weight: 700;
 }
 
-
+/* Story */
 
 .storysection {
     display: flex;
@@ -128,7 +131,6 @@ button {
 }
 
 .storyartikel p {
-  font-family: 'inter', sans-serif;
   color: black;
   margin: 0 0 30px 0;
 }
@@ -144,7 +146,8 @@ button {
     background-size: cover;
     height: 500px;
     width: 100%;
-    margin: 40px auto;
+    margin: auto;
+    margin-bottom: 0;
     position: relative;
     display: flex;
     justify-content: center;
@@ -172,17 +175,6 @@ button {
     flex-direction: column;
 }
 
-h2 {
-  font-family: 'Playfair Display', serif; 
-  font-weight: 100;
-  margin-bottom: 48px;
-}
-
-h4 , p {
-  font-family: 'Inter', sans-serif;
-  color: white;
-}
-
 .container {
   width: 75%;
   margin: 0 auto;
@@ -197,163 +189,123 @@ h4 , p {
 
 /* Expertise */
 
-/*#main_p2 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  margin-bottom: 100px;
-    
-}   */
-
 .expertise-section {
   display: flex;
   flex-direction: column;
-  align-content: center;
-  height: 500px;
-  
+  justify-content: center;
+  margin: auto;
+  width: 60%;
 }
+
+.first-section-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.first-section-part h2 {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+.first-section-part p {
+  font-family: 'playfair', serif;
+}
+
+.expertise-container {
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 40px 0 50px 0;
+}
+
+.expertise-box {
+  text-align: center;
+  padding: 20px 35px 20px 10px;
+}
+
+.expertise-box img {
+  margin-top: 20px;
+}
+
+.border-right {
+  border-right: solid 1px lightgray;
+}
+
+.border-bottom {
+  border-bottom: solid 1px lightgray;
+}
+
+/* Team */
 
 .team-section {
   background-image: url(images/bkg-team.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 850px;
   width: 100%;
-  margin: 0px auto;
+  margin: 40px auto 0 auto;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
-.team_box {
-  width: 75%;
-  height: auto;
+.color-white {
+  color: #fff;
+}
+
+.team-container {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ width: 70%;
+ margin: 60px auto 40px auto;
+}
+
+.team-box {
+  width: 95%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0 20px 0 0;
-}
-
-.box-name {
-  width: 250px;
-
+  flex-direction: column;
 }
 
 .white-box {
   width: 100%;
-  height: 100px;
-  background-color: white;
+  height: 300px;
+  background-color: #fff;
 }
 
-.white-box-text {
-  background-color: transparent;
-  border: solid 1px gray;
-}
-
-.semf, .dik, .jeng, .pet {
-
-  text-align: center; 
-
-}
-
-.team-section p {
+.white-border-box {
+  border: solid 0.5px #fff;
   text-align: center;
-}
-
-.semf {
   color: #fff;
 }
 
-.white-box-text p {
-  text-align: center;
+.white-border-box h4 {
+  margin-bottom: 5px;
+}
+
+.white-border-box p {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-weight: 100;
 }
 
-.ex_mid_box {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.expertise-box {
+.team-button {
   width: 200px;
-  height: 600px;
+  margin: 40px auto 0 auto;
 }
 
-
-.h1_p2 {
-  font-family: 'Playfair Display', serif; 
-  font-weight: 400;
-  text-align: center;
+.team-text {
+  margin: 20px auto 0 auto;
   color: #fff;
 }
-
-.h1_p2_2 {
-  font-family: 'Playfair Display', serif; 
-  font-weight: 100;
-  text-align: center;
-} 
-
-.ex_top1 {
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-  margin: 10px 0 10px 0;
-}
-
-.team_top1, .team_top2, .h1_p2_2 {
-  color: white;
-
-}
-
-.expertise-h2 {
-  font-family: 'Playfair Display', serif; 
-  font-weight: 100;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.n1 {
-  background-image: url("images/screen.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.n2 {
-  background-image: url("images/screen.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.n3 {
-  background-image: url("images/screen.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.n4 {
-  background-image: url("images/screen.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.n5 {
-  background-image: url("images/screen.png");
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-
 
 /*contact */
 
 .container {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .contact {
@@ -417,11 +369,6 @@ h4 , p {
   max-width: 100%;
 }
 
-
-
-
-
-
 /* Footer */
 
 footer {
@@ -440,6 +387,15 @@ footer {
   display: flex;
   align-content: center;
   margin: 60px 0 40px 0;
+}
+
+.footer-container h4 {
+  color: #fff;
+}
+
+
+.footer-container p {
+  color: #fff;
 }
 
 /* Footer linker Bereich mit Logo und Text */
@@ -569,7 +525,6 @@ footer {
   justify-content: space-between;
 }
 
-
 /* footer letzte Zeile mit Navbar und Copyright */
 
 .footer-last-line {
@@ -606,5 +561,6 @@ ul {
   display: flex;
   justify-content: flex-end;
   font-weight: 200;
+  color: white;
 }
 
